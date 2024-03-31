@@ -3,9 +3,9 @@ import React from 'react';
 import { ToastContainer } from 'react-toastify';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
+import { BrowserRouter } from 'react-router-dom';
 
 // Rotas
-import { BrowserRouter } from 'react-router-dom';
 import Routes from './routes';
 
 // CSS

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const AlunoContainer = styled.div`
   flex-direction: row;
@@ -23,6 +24,15 @@ export const AlunoContainer = styled.div`
     align-items: center;
     justify-content: center;
   }
+
+  .icons-div {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .icons-div span {
+    margin-inline: 5px;
+  }
 `;
 
 export const ProfilePicture = styled.div`
@@ -30,5 +40,15 @@ export const ProfilePicture = styled.div`
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    object-fit: cover;
   }
+`;
+
+export const NovoAluno = styled(Link)`
+  display: inline;
+  padding: 10px;
+  color: #fff;
+  background-color: #597d35;
+  white-space: nowrap;
+  border-radius: 5px;
 `;

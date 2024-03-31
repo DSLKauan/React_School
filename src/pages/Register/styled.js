@@ -10,6 +10,10 @@ export const Form = styled.form`
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    max-width: 20%;
+    min-width: 30%;
+    margin: auto;
+    font-weight: bold;
   }
 
   input {
@@ -20,5 +24,12 @@ export const Form = styled.form`
     &:focus {
       border-color: blue;
     }
+  }
+
+  button {
+    align-self: center;
+    margin-top: 10px;
+    max-width: 20%;
+    min-width: 30%;
   }
 `;

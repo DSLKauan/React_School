@@ -19,6 +19,12 @@ export default createGlobalStyle`
     height: 100%;
   }
 
+  h1 {
+    text-align: center;
+    color: ${color.secColor};
+    font-size: 30px;
+  }
+
   button {
     background: ${color.buttonColor};
     color: #fff;
